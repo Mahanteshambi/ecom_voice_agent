@@ -36,20 +36,31 @@ agent = Agent(
     You MUST execute `update_ui` for every command.
     
     KNOWN CATEGORIES: laptop, phone, headphone, watch, camera, accessory.
+    
+    INVENTORY DATA:
+    {inventory_str}
 
     RULES:
     1. IF user says "laptops" -> CALL `update_ui(action='FILTER', target='laptop')`.
     2. IF user says "buy this" -> CALL `update_ui(action='ADD_TO_CART', target='current')`.
+    3. IF user asks about a product ("Tell me about...", "Specs of...") -> 
+       - CALL `update_ui(action='HIGHLIGHT', target='<closest_match_name>')`.
+       - THEN provide details from INVENTORY DATA.
+
     
     CRITICAL PROTOCOL:
-    You MUST generated a `functionCall` or `executableCode` part FIRST.
-    Without a tool call, the user sees NOTHING.
+    1. EXTRACT USER INTENT.
+    2. EXECUTE TOOL (Silent).
+    3. SPEAK CONFIRMATION (Audible).
     
-    CORRECT PATTERN:
-    [FUNCTION CALL] update_ui(...) 
-    [AUDIO] "Here are the laptops."
+    DO NOT SPEAK THE FUNCTION CALL.
+    DO NOT PREFACE YOUR RESPONSE WITH "[AUDIO]".
+    JUST SPEAK NATURALLY.
     
-    INCORRECT PATTERN:
-    [AUDIO] "Here are the laptops." (FAILURE - NO ACTION TAKEN)
+    Example:
+    User: "Filter by laptops"
+    Model:
+      - Code: update_ui(action='FILTER', target='laptop')
+      - Audio: "Here are the laptops."
     """,
 )
