@@ -200,16 +200,7 @@ export function LiveAssistant() {
                     {isCamOn ? <Video className="w-5 h-5" /> : <VideoOff className="w-5 h-5" />}
                 </button>
 
-                {/* DEBUG: Test Filter */}
-                <button
-                    onClick={() => {
-                        console.log("DEBUG: Manually sending text command");
-                        sendText("Show me laptops");
-                    }}
-                    className="p-3 bg-yellow-500/20 text-yellow-500 rounded-full hover:bg-yellow-500/30 transition-all"
-                >
-                    T
-                </button>
+
             </div>
         </motion.div>
     );
