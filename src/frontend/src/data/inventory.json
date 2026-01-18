@@ -1,0 +1,479 @@
+[
+  {
+    "id": "laptop-xps15",
+    "name": "Dell XPS 15",
+    "price": 2499,
+    "category": "laptops",
+    "specs": {
+      "processor": "Intel Core i9-13900H",
+      "ram": "32GB",
+      "storage": "1TB NVMe",
+      "screen": "15.6-inch OLED 3.5K",
+      "gpu": "NVIDIA RTX 4060"
+    },
+    "visual_tags": [
+      "laptop",
+      "dell",
+      "windows",
+      "xps",
+      "carbon fiber"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/18/Dell_XPS_15_%282015%29.png",
+    "description": "Immersive display and incredible performance in a stunning design. Perfect for creators."
+  },
+  {
+    "id": "phone-pixel8pro",
+    "name": "Google Pixel 8 Pro",
+    "price": 999,
+    "category": "phones",
+    "specs": {
+      "processor": "Google Tensor G3",
+      "screen": "6.7-inch Super Actua",
+      "cameras": "50MP Wide, 48MP Ultrawide, 48MP Telephoto",
+      "ai": "Gemini Nano Built-in"
+    },
+    "visual_tags": [
+      "phone",
+      "google",
+      "pixel",
+      "blue",
+      "android",
+      "ai"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/da/Google_Pixel_8_Pro_back_%28Obsidian%29.svg",
+    "description": "The first phone built with Google's most advanced AI. Best-in-class camera."
+  },
+  {
+    "id": "laptop-zenbook",
+    "name": "ASUS Zenbook Pro 14 Duo",
+    "price": 2299,
+    "category": "laptops",
+    "specs": {
+      "processor": "Intel Core i9-13900H",
+      "ram": "32GB",
+      "screen": "14.5-inch OLED 120Hz + ScreenPad Plus",
+      "gpu": "NVIDIA RTX 4060"
+    },
+    "visual_tags": [
+      "laptop",
+      "asus",
+      "dual screen",
+      "zenbook",
+      "oled"
+    ],
+    "image": "https://placehold.co/600x400/101010/ffffff?text=ASUS+Zenbook+Pro+Duo",
+    "description": "Two screens are better than one. The ultimate multitasking machine for video editing."
+  },
+  {
+    "id": "laptop-mbp16",
+    "name": "MacBook Pro 16 M3 Max",
+    "price": 3499,
+    "category": "laptops",
+    "specs": {
+      "processor": "M3 Max",
+      "ram": "36GB",
+      "storage": "1TB SSD",
+      "screen": "16-inch Liquid Retina XDR",
+      "battery": "22 hours",
+      "ports": [
+        "MagSafe 3",
+        "3x Thunderbolt 4",
+        "HDMI",
+        "SDXC"
+      ]
+    },
+    "visual_tags": [
+      "laptop",
+      "apple",
+      "macbook",
+      "silver",
+      "notebook",
+      "pro"
+    ],
+    "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&q=80&w=1000",
+    "description": "The most powerful MacBook Pro ever. Blazing fast M3 Max chip for extreme workflows."
+  },
+  {
+    "id": "laptop-mbp14",
+    "name": "MacBook Pro 14 M3 Pro",
+    "price": 1999,
+    "category": "laptops",
+    "specs": {
+      "processor": "M3 Pro",
+      "ram": "18GB",
+      "storage": "512GB SSD",
+      "screen": "14-inch Liquid Retina XDR",
+      "battery": "18 hours"
+    },
+    "visual_tags": [
+      "laptop",
+      "apple",
+      "macbook",
+      "space black",
+      "notebook"
+    ],
+    "image": "https://images.unsplash.com/photo-1611186871348-b1ce696e52c9?auto=format&fit=crop&q=80&w=1000",
+    "description": "Mind-blowing performance in a compact form factor."
+  },
+  {
+    "id": "laptop-mba15",
+    "name": "MacBook Air 15 M2",
+    "price": 1299,
+    "category": "laptops",
+    "specs": {
+      "processor": "M2",
+      "ram": "8GB",
+      "storage": "256GB SSD",
+      "screen": "15.3-inch Liquid Retina",
+      "weight": "3.3 lbs"
+    },
+    "visual_tags": [
+      "laptop",
+      "apple",
+      "macbook air",
+      "thin",
+      "midnight"
+    ],
+    "image": "https://images.unsplash.com/photo-1629131726692-1accd0c53ce0?auto=format&fit=crop&q=80&w=1000",
+    "description": "Impressively big. Impossibly thin. The 15-inch MacBook Air makes room for more of what you love."
+  },
+  {
+    "id": "laptop-razer16",
+    "name": "Razer Blade 16",
+    "price": 3299,
+    "category": "laptops",
+    "specs": {
+      "processor": "Intel Core i9-14900HX",
+      "gpu": "NVIDIA RTX 4080",
+      "ram": "32GB",
+      "screen": "16-inch Dual Mode Mini-LED"
+    },
+    "visual_tags": [
+      "laptop",
+      "gaming",
+      "razer",
+      "black",
+      "rgb"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Razer_Blade_Pro_1_2018-02-13.jpg",
+    "description": "The world's first dual-mode display gaming laptop. Uncompromised performance."
+  },
+  {
+    "id": "phone-iphone15pro",
+    "name": "iPhone 15 Pro Max",
+    "price": 1199,
+    "category": "phones",
+    "specs": {
+      "processor": "A17 Pro",
+      "material": "Titanium",
+      "camera": "48MP Main, 5x Telephoto",
+      "screen": "6.7-inch Super Retina XDR"
+    },
+    "visual_tags": [
+      "phone",
+      "apple",
+      "iphone",
+      "titanium",
+      "natural"
+    ],
+    "image": "https://www.machines.com.my/cdn/shop/products/iPhone_15_Pro_Max_Blue_Titanium_PDP_Image_Position-1__GBEN_bb64db6e-c39f-48fc-a0d4-ff090afb0e25.jpg?v=1705481348&width=2890",
+    "description": "Forged in titanium. A17 Pro chip. The most powerful iPhone camera ever."
+  },
+  {
+    "id": "phone-s24ultra",
+    "name": "Samsung Galaxy S24 Ultra",
+    "price": 1299,
+    "category": "phones",
+    "specs": {
+      "processor": "Snapdragon 8 Gen 3 for Galaxy",
+      "screen": "6.8-inch QHD+",
+      "pen": "S Pen Integrated",
+      "ai": "Galaxy AI"
+    },
+    "visual_tags": [
+      "phone",
+      "samsung",
+      "galaxy",
+      "stylus",
+      "android",
+      "grey"
+    ],
+    "image": "https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?auto=format&fit=crop&q=80&w=1000",
+    "description": "Epic, just like that. Unleash new ways to create, connect, and play with Galaxy AI."
+  },
+  {
+    "id": "camera-a7iv",
+    "name": "Sony Alpha a7 IV",
+    "price": 2498,
+    "category": "cameras",
+    "specs": {
+      "sensor": "33MP Full-Frame Exmor R",
+      "video": "4K 60p 10-bit 4:2:2",
+      "autofocus": "Real-time Eye AF",
+      "iso": "100-51200"
+    },
+    "visual_tags": [
+      "camera",
+      "sony",
+      "mirrorless",
+      "black",
+      "lens",
+      "full frame"
+    ],
+    "image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&q=80&w=1000",
+    "description": "The new baseline for full-frame mirrorless. Exceptional image quality and speed."
+  },
+  {
+    "id": "camera-r5",
+    "name": "Canon EOS R5",
+    "price": 3399,
+    "category": "cameras",
+    "specs": {
+      "sensor": "45MP Full-Frame CMOS",
+      "video": "8K RAW",
+      "stabilization": "In-body 8-stop"
+    },
+    "visual_tags": [
+      "camera",
+      "canon",
+      "eos",
+      "mirrorless",
+      "black"
+    ],
+    "image": "https://my.canon/media/image/2020/07/04/862a1f43feed4fab85897aee45b6324c_R5_Front_BODY.png",
+    "description": "Professional mirrorless redefined. 8K video and 45MP stills for hybrid shooters."
+  },
+  {
+    "id": "camera-xt5",
+    "name": "Fujifilm X-T5",
+    "price": 1699,
+    "category": "cameras",
+    "specs": {
+      "sensor": "40MP APS-C",
+      "stabilization": "IBIS 7-stop",
+      "design": "Retro Dials"
+    },
+    "visual_tags": [
+      "camera",
+      "fujifilm",
+      "silver",
+      "vintage",
+      "retro"
+    ],
+    "image": "https://images.unsplash.com/photo-1519638831568-d9897f54ed69?auto=format&fit=crop&q=80&w=1000",
+    "description": "Photography first. A classic dial-based design with cutting-edge 40MP resolution."
+  },
+  {
+    "id": "camera-osmo3",
+    "name": "DJI Osmo Pocket 3",
+    "price": 519,
+    "category": "cameras",
+    "specs": {
+      "sensor": "1-inch CMOS",
+      "screen": "2-inch Rotatable OLED",
+      "stabilization": "3-Axis Gimbal",
+      "video": "4K 120fps"
+    },
+    "visual_tags": [
+      "camera",
+      "dji",
+      "gimbal",
+      "vlog",
+      "pocket"
+    ],
+    "image": "https://se-cdn.djiits.com/tpc/uploads/carousel/image/1a512ce2319f4309eb1c5bc4682273ed@ultra.webp",
+    "description": "For moving moments. A compact gimbal camera with a powerful 1-inch sensor."
+  },
+  {
+    "id": "audio-wh1000xm5",
+    "name": "Sony WH-1000XM5",
+    "price": 348,
+    "category": "audio",
+    "specs": {
+      "type": "Over-Ear Noise Canceling",
+      "battery": "30 hours",
+      "drivers": "30mm",
+      "features": "Speak-to-Chat"
+    },
+    "visual_tags": [
+      "headphones",
+      "sony",
+      "headset",
+      "black",
+      "noise canceling"
+    ],
+    "image": "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?auto=format&fit=crop&q=80&w=1000",
+    "description": "Industry-leading noise cancellation. Distraction-free listening."
+  },
+  {
+    "id": "audio-airpodsmax",
+    "name": "AirPods Max",
+    "price": 549,
+    "category": "audio",
+    "specs": {
+      "type": "Over-Ear",
+      "chip": "H1 Chip",
+      "material": "Stainless Steel + Mesh",
+      "audio": "Spatial Audio"
+    },
+    "visual_tags": [
+      "headphones",
+      "apple",
+      "silver",
+      "white",
+      "premium"
+    ],
+    "image": "https://images.unsplash.com/photo-1613040809024-b4ef7ba99bc3?auto=format&fit=crop&q=80&w=1000",
+    "description": "A perfect balance of exhilarating high-fidelity audio and the effortless magic of AirPods."
+  },
+  {
+    "id": "audio-sonos-era300",
+    "name": "Sonos Era 300",
+    "price": 449,
+    "category": "audio",
+    "specs": {
+      "type": "Smart Speaker",
+      "audio": "Dolby Atmos",
+      "connectivity": "WiFi + Bluetooth",
+      "voice": "Alexa + Sonos Voice"
+    },
+    "visual_tags": [
+      "speaker",
+      "sonos",
+      "white",
+      "home audio"
+    ],
+    "image": "https://media.sonos.com/images/znqtjj88/production/1dfecdf1513cd96cd28e789adac4957b97adf50b-1800x1800.png?w=3840&q=100&fit=clip&auto=format",
+    "description": "Next-level audio that hits you from every direction. Experience Dolby Atmos anywhere."
+  },
+  {
+    "id": "acc-mxmaster3s",
+    "name": "Logitech MX Master 3S",
+    "price": 99,
+    "category": "accessories",
+    "specs": {
+      "sensor": "8000 DPI Darkfield",
+      "buttons": "7 Custom",
+      "scroll": "MagSpeed Electromagnetic"
+    },
+    "visual_tags": [
+      "mouse",
+      "logitech",
+      "black",
+      "wireless",
+      "office"
+    ],
+    "image": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?auto=format&fit=crop&q=80&w=1000",
+    "description": "The icon remastered. Quiet clicks and track-on-glass precision."
+  },
+  {
+    "id": "acc-mxkeyss",
+    "name": "Logitech MX Keys S",
+    "price": 109,
+    "category": "accessories",
+    "specs": {
+      "type": "Wireless Illuminated Keyboard",
+      "battery": "5 months (backlight off)",
+      "keys": "Spherically dished",
+      "connection": "Bluetooth + Bolt"
+    },
+    "visual_tags": [
+      "keyboard",
+      "logitech",
+      "black",
+      "wireless",
+      "slim"
+    ],
+    "image": "https://www.tmt.my/data/editor/sc-product/15500/logitech_mx_keys_s_main.jpg",
+    "description": "Master your flow with a precision typing experience. Smart illumination."
+  },
+  {
+    "id": "acc-satechi-hub",
+    "name": "Satechi USB-C Multi-Port Adapter",
+    "price": 89,
+    "category": "accessories",
+    "specs": {
+      "ports": [
+        "HDMI 4K",
+        "USB-C PD",
+        "Gigabit Ethernet",
+        "3x USB-A"
+      ],
+      "material": "Aluminum",
+      "color": "Space Gray"
+    },
+    "visual_tags": [
+      "hub",
+      "usb-c",
+      "adapter",
+      "satechi",
+      "dongle",
+      "silver",
+      "grey"
+    ],
+    "image": "https://images.unsplash.com/photo-1625842268584-8f3296236761?auto=format&fit=crop&q=80&w=1000",
+    "description": "Expand your possibilities. Connect everything you need with one sleek hub."
+  },
+  {
+    "id": "acc-anker-737",
+    "name": "Anker 737 Power Bank",
+    "price": 149,
+    "category": "accessories",
+    "specs": {
+      "capacity": "24,000mAh",
+      "output": "140W PD 3.1",
+      "screen": "Smart Digital Display"
+    },
+    "visual_tags": [
+      "power bank",
+      "battery",
+      "anker",
+      "black",
+      "charger"
+    ],
+    "image": "https://images.unsplash.com/photo-1609557927087-f9cf8e88de18?auto=format&fit=crop&q=80&w=1000",
+    "description": "Ultra-powerful two-way charging. Charge your MacBook Pro 16 to 50% in 40 mins."
+  },
+  {
+    "id": "mon-studio-display",
+    "name": "Apple Studio Display",
+    "price": 1599,
+    "category": "accessories",
+    "specs": {
+      "screen": "27-inch 5K Retina",
+      "camera": "12MP Ultra Wide with Center Stage",
+      "audio": "Spatial Audio 6-speaker system",
+      "brightness": "600 nits"
+    },
+    "visual_tags": [
+      "monitor",
+      "apple",
+      "display",
+      "silver",
+      "5k"
+    ],
+    "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/studio-display-gallery-1-202203?wid=640&hei=528&fmt=p-jpg&qlt=95&.v=eWpuNHJyMTVNd2c1b3VZNlJqYitzZEFNZys4dC8yY2NWNklIYlYrUjdnNWhxNm1ZVUtMa2NMbWNOdnFKQ012N3g4ZHpEbm5XWGdaM3BiNVRDaG55UkJPU3FZZjJ2RmR1a3MrbE1XV2R6REQrNmVjbmk5c1V4VVk2VEt3TGcxekg",
+    "description": "A sight to be seen. A massive 5K retina display with a high-fidelity sound system and advanced camera."
+  },
+  {
+    "id": "acc-ssd-t7",
+    "name": "Samsung T7 Shield 2TB",
+    "price": 179,
+    "category": "accessories",
+    "specs": {
+      "capacity": "2TB",
+      "speed": "1050MB/s",
+      "durability": "IP65 Water/Dust Resistant",
+      "interface": "USB 3.2 Gen 2"
+    },
+    "visual_tags": [
+      "ssd",
+      "storage",
+      "samsung",
+      "rugged",
+      "blue"
+    ],
+    "image": "https://mlink.com.my/image/mlink/image/cache/data/all_product_images/product-6060/JP7RIcaO1695785187-960x960.jpg",
+    "description": "Rugged durability. Fast transfers. The ultimate portable drive for creators on the go."
+  }
+]

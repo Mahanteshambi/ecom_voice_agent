@@ -1,0 +1,14 @@
+[project]
+name = "agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "google-adk>=0.1.0", # Assuming available or >=1.20.0 as per reference
+    "fastapi>=0.115.0",
+    "python-dotenv>=1.0.0",
+    "uvicorn[standard]>=0.32.0",
+    "google-auth>=2.0.0",
+    "requests>=2.0.0"
+]
